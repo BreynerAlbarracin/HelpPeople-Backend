@@ -13,3 +13,10 @@ Es necesario ejecutar el comando Update-database desde visual studio con el fin 
 
 ### `SQL`
 Es altamente recomendable ejecutar el archivo **Script-Data-Seed.sql** en la base de datos luego de ser creada para cargar la data semilla inicial que incluye los tipos de documento y las vacantes acorde a lo informado por la prueba.
+
+### `Usuario`
+El usuario de pruebas se incluye en el .sql, sin embargo, la clave se almacena como un hash SHA512 codificado como Hex por lo que a continuación dejo las credenciales necesarias para el login en el aplicativo:
+ ``````
+Correo: admin@fake.com
+Contraseña: admin1234
+``````
